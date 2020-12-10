@@ -1,0 +1,7 @@
+import "stdsx"
+import "htserv"
+// port num: 80
+createHttpServer(80)
+
+createContext("/HomePage","index.yhtm")
+createContext("/Index","index.yhtm")

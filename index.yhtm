@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yimx Demo!</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body{
+            color: #ffc467;
+            background: #2e3841;
+            font-family: sans-serif;
+        }
+        p:last-child{
+            margin-bottom: 0;
+        }
+        ul{
+            list-style: none;
+            padding: 0;
+        }
+        li{
+            background: #3c4b58;
+            padding: 1em;
+            margin-bottom: 1em;
+        }
+        h3{
+            margin-top: 0;
+            font-size: 1.35em;
+            color: #ffd28a;
+
+
+        }
+        img{
+            width: 100%;
+            max-width: 600px;
+        }
+
+    </style>
+</head>
+<body>
+    <ul>
+        <li class="game-update">
+            <h3>Hoşgeldin! Yimx!</h3>
+            <img src="https://mediatrend.mediamarkt.com.tr/wp-content/uploads/2017/02/2017_subat_03.jpg">
+            <p>Yimx ile web siteni oluşturdun!</p>
+        </li>
+    </ul>
+</body>
+</html>
